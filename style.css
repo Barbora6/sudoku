@@ -26,9 +26,10 @@ hr {
 }
 
 .tile {
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
   border: 1px solid lightgrey;
+  /* margin: 1px; */
 
   /* Text */
   font-size: 20px;
@@ -62,4 +63,16 @@ hr {
 
 .number-selected {
   background-color: grey;
+}
+
+.tile-start {
+  background-color: whitesmoke;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
 }
